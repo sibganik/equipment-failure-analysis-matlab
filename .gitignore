@@ -1,0 +1,14 @@
+# MATLAB autosave files
+*.asv
+*.m~
+
+# Live Editor autosave
+*.mlx.autosave
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
