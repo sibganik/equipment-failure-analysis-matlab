@@ -79,7 +79,6 @@ Potential actions include:
 ## Visualizations
 
 ### Distribution of Failure Costs
-<img src="screenshots/distribution-costs.png" width="600">
 ![Cost Distribution](screenshots/distribution-costs.png)
 
 ### Failure Cost by Category
@@ -99,16 +98,7 @@ Potential actions include:
 2. Ensure that `importReports.mlx` is in the same directory  
 3. Run the script  
 
-## Project Structure
 
-equipment-failure-analysis-matlab/
-│
-├── equipment_failure_analysis.mlx
-├── importReports.mlx
-├── README.md
-├── .gitignore
-├── LICENSE
-└── screenshots/
 
 ## Tools
 
@@ -117,6 +107,5 @@ equipment-failure-analysis-matlab/
 - Table-based data analysis  
 - String processing  
 
-## Author
 
-Master’s student with experience in MATLAB-based data analysis and engineering workflows.
+Author - Nikita Sibgatullin
