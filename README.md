@@ -2,7 +2,6 @@
 
 This project analyzes equipment failure reports from a factory using MATLAB. The analysis combines data processing, visualization, and text-based filtering to identify cost drivers and support decision-making.
 
----
 
 ## Dataset
 
@@ -14,7 +13,6 @@ The dataset contains 480 equipment failure reports. Each record includes:
 - Resolution — method used to resolve the issue  
 - Cost — total cost associated with the failure  
 
----
 
 ## Objective
 
@@ -86,17 +84,16 @@ Potential actions include:
 ## Visualizations
 
 ### Distribution of Failure Costs
-![Cost Distribution](screenshots/Distribution%20of%20Failure%20Costs.png)
+![Cost Distribution](screenshots/distribution-costs.png)
 
 ### Failure Cost by Category
-![Failure Cost](screenshots/Failure%20Cost%20by%20Category.png)
+![Failure Cost](screenshots/failure-cost-category.png)
 
 ### Number of Failures by Category
-![Category Count](screenshots/Number%20of%20Failures%20by%20Category.png)
+![Category Count](screenshots/failures-category.png)
 
 ### Number of Failures by Urgency
-![Urgency Count](screenshots/Number%20of%20Failures%20by%20Urgency.png)
-
+![Urgency Count](screenshots/failures-urgency.png)
 ---
 
 ## How to Run
