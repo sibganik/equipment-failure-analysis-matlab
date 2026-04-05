@@ -79,17 +79,18 @@ Potential actions include:
 ## Visualizations
 
 ### Distribution of Failure Costs
+<img src="screenshots/distribution-costs.png" width="600">
 ![Cost Distribution](screenshots/distribution-costs.png)
 
 ### Failure Cost by Category
 ![Failure Cost](screenshots/failure-cost-category.png)
 
 ### Number of Failures by Category
-![Category Count](screenshots/failures-category.png)
+![Category Count](screenshots/failures-by-category.png)
 
 ### Number of Failures by Urgency
-![Urgency Count](screenshots/failures-urgency.png)
-<img src="screenshots/distribution-costs.png" width="600">
+![Urgency Count](screenshots/failures-by-urgency.png)
+
 
 
 ## How to Run
