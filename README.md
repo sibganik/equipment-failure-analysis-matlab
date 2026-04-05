@@ -22,7 +22,6 @@ The objective of this project is to:
 - evaluate their contribution to total maintenance cost  
 - extract actionable insights for cost reduction  
 
----
 
 ## Methodology
 
@@ -61,13 +60,11 @@ The analysis follows a structured workflow:
   - share of total cost attributed to power-related failures  
   - share of total reports represented by these failures  
 
----
 
 ## Results
 
 The analysis indicates that power-related electronic failures contribute significantly to total maintenance cost, despite not being the most frequent type of failure.
 
----
 
 ## Conclusion
 
@@ -79,7 +76,6 @@ Potential actions include:
 - improved monitoring of electrical infrastructure  
 - preventive maintenance strategies  
 
----
 
 ## Visualizations
 
@@ -90,11 +86,11 @@ Potential actions include:
 ![Failure Cost](screenshots/failure-cost-category.png)
 
 ### Number of Failures by Category
-![Category Count](screenshots/failures-category.png)
+![Category Count](screenshots/failures-by-category.png)
 
 ### Number of Failures by Urgency
-![Urgency Count](screenshots/failures-urgency.png)
----
+![Urgency Count](screenshots/failures-by-urgency.png)
+
 
 ## How to Run
 
@@ -102,7 +98,6 @@ Potential actions include:
 2. Ensure that `importReports.mlx` is in the same directory  
 3. Run the script  
 
----
 
 
 ## Tools
@@ -112,8 +107,5 @@ Potential actions include:
 - Table-based data analysis  
 - String processing functions  
 
----
 
-## Author
-
-Master’s student with experience in MATLAB-based data analysis and engineering workflows.
+Author - Nikita Sibgatullin
