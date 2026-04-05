@@ -2,7 +2,6 @@
 
 This project analyzes equipment failure reports from a factory using MATLAB. The analysis combines data processing, visualization, and text-based filtering to identify cost drivers and support decision-making.
 
-
 ## Dataset
 
 The dataset contains 480 equipment failure reports. Each record includes:
@@ -13,7 +12,6 @@ The dataset contains 480 equipment failure reports. Each record includes:
 - Resolution — method used to resolve the issue  
 - Cost — total cost associated with the failure  
 
-
 ## Objective
 
 The objective of this project is to:
@@ -22,6 +20,10 @@ The objective of this project is to:
 - evaluate their contribution to total maintenance cost  
 - extract actionable insights for cost reduction  
 
+## Technical Summary
+
+The analysis is based on MATLAB table operations, logical indexing, and string processing.  
+High-cost failures are identified through filtering conditions, and their impact is evaluated using aggregate cost metrics.
 
 ## Methodology
 
@@ -60,15 +62,13 @@ The analysis follows a structured workflow:
   - share of total cost attributed to power-related failures  
   - share of total reports represented by these failures  
 
-
 ## Results
 
-The analysis indicates that power-related electronic failures contribute significantly to total maintenance cost, despite not being the most frequent type of failure.
-
+The analysis shows that power-related electronic failures contribute disproportionately to total maintenance cost compared to their frequency.
 
 ## Conclusion
 
-Power-related failures represent a high-impact category and should be prioritized for further investigation.  
+Power-related failures represent a high-impact category and should be prioritized for further investigation.
 
 Potential actions include:
 
@@ -76,21 +76,19 @@ Potential actions include:
 - improved monitoring of electrical infrastructure  
 - preventive maintenance strategies  
 
-
 ## Visualizations
 
 ### Distribution of Failure Costs
-![Cost Distribution](screenshots/distribution-costs.png)
+![Cost Distribution](./screenshots/Distribution%20of%20Failure%20Costs.png)
 
 ### Failure Cost by Category
-![Failure Cost](screenshots/failure-cost-category.png)
+![Failure Cost](./screenshots/Failure%20Cost%20by%20Category.png)
 
 ### Number of Failures by Category
-![Category Count](screenshots/failures-by-category.png)
+![Category Count](./screenshots/Number%20of%20Failures%20by%20Category.png)
 
 ### Number of Failures by Urgency
-![Urgency Count](screenshots/failures-by-urgency.png)
-
+![Urgency Count](./screenshots/Number%20of%20Failures%20by%20Urgency.png)
 
 ## How to Run
 
@@ -98,14 +96,24 @@ Potential actions include:
 2. Ensure that `importReports.mlx` is in the same directory  
 3. Run the script  
 
+## Project Structure
 
+equipment-failure-analysis-matlab/
+│
+├── equipment_failure_analysis.mlx
+├── importReports.mlx
+├── README.md
+├── .gitignore
+├── LICENSE
+└── screenshots/
 
 ## Tools
 
 - MATLAB  
 - Live Script (.mlx)  
 - Table-based data analysis  
-- String processing functions  
+- String processing  
 
+## Author
 
-Author - Nikita Sibgatullin
+Master’s student with experience in MATLAB-based data analysis and engineering workflows.
